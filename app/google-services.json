@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "861428012138",
+    "project_id": "tuckbox-a2256",
+    "storage_bucket": "tuckbox-a2256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861428012138:android:9d8c15ad0b5d2c52c96613",
+        "android_client_info": {
+          "package_name": "com.example.tuckbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861428012138-nvtircrivaaamo6deb48kectqu28so4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyYZxtvLdIo8lrsW73xegl_x6MvJvxdGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861428012138-nvtircrivaaamo6deb48kectqu28so4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
