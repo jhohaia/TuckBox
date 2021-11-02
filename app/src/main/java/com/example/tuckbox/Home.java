@@ -57,8 +57,8 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
                 return false;
             }
         });
-        //Identifying Buttons
 
+        //Identifying Buttons
         order = (Button) findViewById(R.id.placeOrder);
         order.setOnClickListener(this);
 
@@ -68,7 +68,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
         history = (Button) findViewById(R.id.orderHistory);
         history.setOnClickListener(this);
 
-        //Getting Username from Firebase Database
+        //Getting Username from Firebase Database and setting welcome text
         user = FirebaseAuth.getInstance().getCurrentUser();
         reference = FirebaseDatabase.getInstance().getReference("Users");
         userId = user.getUid();
