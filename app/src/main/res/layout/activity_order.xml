@@ -14,7 +14,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_height="wrap_content"
         app:menu="@menu/menu"
-        android:background="@color/primary"
+        android:background="?attr/colorPrimary"
         app:itemTextColor="@color/navText"
         app:itemIconTint="@color/navText"/>
 
@@ -37,6 +37,7 @@
         android:text="Place Your Order"
         android:background="@color/whiteOpacity"
         android:textAlignment="center"
+        android:textColor="@color/grey"
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -129,7 +130,6 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            android:backgroundTint="@color/primary"
             android:text="Add" />
     </LinearLayout>
 
@@ -147,7 +147,6 @@
             android:layout_width="130dp"
             android:layout_height="60dp"
             android:layout_marginLeft="10dp"
-            android:backgroundTint="@color/primary"
             android:text="Place Order" />
 
         <Button
@@ -155,7 +154,6 @@
             android:layout_width="130dp"
             android:layout_height="60dp"
             android:layout_marginLeft="10dp"
-            android:backgroundTint="@color/primary"
             android:text="Cancel Order" />
     </LinearLayout>
 
@@ -238,10 +236,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <Button
-                    android:id="@+id/cardAdd"
+                    android:id="@+id/cardMinus"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:text="+"
+                    android:text="-"
                     android:layout_marginLeft="10dp"
                     android:textSize="20dp"/>
                 <TextView
@@ -251,10 +249,10 @@
                     android:layout_height="wrap_content"
                     android:text="0"/>
                 <Button
-                    android:id="@+id/cardMinus"
+                    android:id="@+id/cardAdd"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:text="-"
+                    android:text="+"
                     android:textSize="20dp"/>
             </LinearLayout>
         </TableLayout>

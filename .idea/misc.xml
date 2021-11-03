@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/joshu/AndroidStudioProjects/TuckBox1/app/src/main/res/layout/activity_edit_user.xml" value="0.5148148148148148" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/TuckBox1/app/src/main/res/layout/activity_history.xml" value="0.41354166666666664" />
         <entry key="..\:/Users/joshu/AndroidStudioProjects/TuckBox1/app/src/main/res/layout/activity_home.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/joshu/AndroidStudioProjects/TuckBox1/app/src/main/res/layout/activity_order.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/TuckBox1/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/TuckBox1/app/src/main/res/layout/activity_order.xml" value="0.4" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/TuckBox1/app/src/main/res/layout/activity_register_user.xml" value="0.4" />
         <entry key="..\:/Users/joshu/AndroidStudioProjects/TuckBox1/app/src/main/res/layout/activity_settings.xml" value="0.5456410256410257" />
       </map>
     </option>

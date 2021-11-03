@@ -14,8 +14,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_height="wrap_content"
         app:menu="@menu/menu"
-        android:background="@color/primary"
         app:itemTextColor="@color/navText"
-        app:itemIconTint="@color/navText"/>
+        app:itemIconTint="@color/navText"
+        android:background="?attr/colorPrimary"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
